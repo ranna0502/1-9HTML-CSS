@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-line{
+  width: 100%;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.section{
+  width: 300px;
+  background-color: #EEEEEE;
+  padding:10px; /*imgと文章を10px内側へ表示する*/
+  position: relative; /*stepをsectionクラスの左上に持っていく*/
+  margin-right: 30px;
+}
+
+.section:last-child{
+  margin-right: 0;
+}
+
+.section-img1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.section-img2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.section-img3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.section-title{
+  margin:15px 0 5px;
+}
+
+span{
+  background-color: #FF9A4B;
+  color: white;
+  position: absolute; /*stepの位置の調整*/
+  top: 0;
+  left: 0;
+}
+
+
+
+
+.footer-line{
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+}
